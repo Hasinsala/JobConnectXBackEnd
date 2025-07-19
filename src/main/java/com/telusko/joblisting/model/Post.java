@@ -1,6 +1,10 @@
 package com.telusko.joblisting.model;
 
+import org.springframework.data.mongodb.core.mapping.Document;
+
 import java.util.Arrays;
+
+@Document(collation = "JobPost")
 
 public class Post {
 
